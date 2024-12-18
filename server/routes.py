@@ -70,6 +70,9 @@ def index():
 #     try:
 #         hostname = request.args.get("hostname")
 #         command = "dig " + hostname
+
+
+
 #         data = subprocess.check_output(command, shell=True)
 #         return data
 #     except:
